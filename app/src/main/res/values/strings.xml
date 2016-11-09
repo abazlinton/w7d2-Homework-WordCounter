@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WordCounter</string>
+    <string name="hint">Text to be counted</string>
+    <string name="edit_default">This this is is is some test test test test text</string>
+</resources>

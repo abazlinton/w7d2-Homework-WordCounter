@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<EditText
+    android:id="@+id/words_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/hint"
+    android:text="@string/edit_default"
+    />
+
+<TextView
+    android:id="@+id/words_count"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:text="0"
+    android:layout_centerHorizontal="true"
+    android:paddingBottom="120dp"
+    android:layout_alignParentBottom="true"
+
+    />
+
+<Button
+    android:id="@+id/calculate"
+    android:text="Calculate"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="65dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<Button
+    android:id="@+id/frequencies"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="See Frequencies"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentBottom="true"
+    android:layout_marginBottom="10dp"
+    />
+
+</RelativeLayout>
